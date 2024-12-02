@@ -1,6 +1,5 @@
 import numpy as np
 import os
-os.system('pip install pytest')
 
 def ListDistance(list_a, list_b):
     """Gets the distance between two lists by pairing up entries and taking the difference
@@ -9,9 +8,9 @@ def ListDistance(list_a, list_b):
 
     Parameters
     ----------
-    list_a: np.array[int]
+    list_a: np.array(int)
         The first list to compare
-    list_b: np.array[int]
+    list_b: np.array(int)
         The second list to compare
 
     Returns
@@ -41,9 +40,9 @@ def ListSimilarityScore(list_a, list_b):
 
     Parameters
     ----------
-    list_a: np.array[int]
+    list_a: np.array(int)
         The first list to compare
-    list_b: np.array[int]
+    list_b: np.array(int)
         The second list to compare
 
     Returns
