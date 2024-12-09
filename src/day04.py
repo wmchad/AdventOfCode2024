@@ -13,7 +13,11 @@ def IsStringInDirection(search_string, word_search, start, direction):
     The start position to look for the search string (2 element indices for the word_search)
   direction: tuple(int)
     The direction to look for the search string (2 elements, each must be -1, 0, or 1)
-  
+
+  Returns
+  -------
+  bool
+    Whether the search string is in the word search or not
   """
   next_start = (start[0] + direction[0], start[1] + direction[1])
   found_string = False
